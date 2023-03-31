@@ -1,0 +1,74 @@
+.App {
+	text-align: center;
+}
+* {
+	list-style: none;
+}
+.card {
+	width: 500px;
+	border-radius: 2px;
+	color: #2e4ead;
+	background-color: white;
+	border: 2px white solid;
+	border-radius: 20px;
+	font-size: 12px;
+	padding: 10px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	cursor: pointer;
+}
+
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 5px;
+	padding-bottom: 10px;
+}
+
+.logo {
+	text-align: left;
+	margin: 25px;
+	font-size: 20px;
+	text-decoration: none;
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo button {
+	background-color: white;
+	border: none;
+	width: 120px;
+	cursor: pointer;
+	color: #2e4ead;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-radius: 20px;
+}
+
+.authButtons button {
+	background-color: white;
+	border: none;
+	width: 150px;
+	height: 50px;
+	margin-right: 20px;
+	font-size: 14px;
+}
+
+.nav ul li {
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+
+.nav ul li a {
+	color: white;
+	font-size: 17px;
+	padding: 7px, 13px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	text-decoration: none;
+	box-sizing: border-box;
+}
